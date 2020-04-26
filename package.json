@@ -1,0 +1,16 @@
+{
+    "name": "routing",
+    "version": "1.0.0",
+    "main": "index.js",
+    "devDependencies": {
+        "electron": "^8.2.3",
+        "electron-packager": "^14.2.1"
+    },
+    "scripts": {
+        "start": "electron index.js ."
+    },
+    "dependencies": {
+        "bootstrap": "^4.4.1",
+        "git": "^0.1.5"
+    }
+}

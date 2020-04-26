@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Peer</title>
+    <link rel="shortcut icon" href="https://img2.freepng.ru/20180422/tae/kisspng-opensuse-computer-icons-suse-linux-distributions-c-used-5adcc2e63a04d5.9551905515244172542377.jpg"; type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+   <script src="https://unpkg.com/peerjs@1.0.0/dist/peerjs.min.js"></script>
+</head>
+<body>
+    <div class="myinfo">
+    <div class="iduser">
+     <p><h3>Мой ID: </h3><span id=myid ></span></p>
+     </div>
+    <input id=otherPeerId type=text placeholder="otherPeerId" > 
+    <div class="btnSends">
+        <button onclick="callToNode(document.getElementById('otherPeerId').value)" id="btnPeer">Вызов</button>
+        <button onclick="sendMsg(document.getElementById('outherPeerId').value)" id="btnPeer" class="btnSend">Написать</button>
+    </div>
+</div>
+    <br>
+    <div class="vidioChat">
+        <video id=myVideo muted="muted" width="400px" height="auto" ></video>
+        <video id=remVideo width="400px" height="auto" ></video>
+    </div><div id=callinfo ></div>
+    <div class="chat">
+
+    </div>
+    <script src="main.js"></script>
+    <script src="returnback.js"></script>
+</body>

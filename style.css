@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    outline: none;
+    overflow-x: none;
+    overflow-y: none;
+}
+body{
+    overflow-x: hidden;
+    background-color: Snow;
+}
+#callinfo{
+    width: 100%;
+    height: 50px;
+    margin: 20px;
+    position: absolute;
+    bottom: 0;   
+}
+#otherPeerId{
+    width: auto;
+    max-width: 300px;
+    height: 35px;
+    border-radius: 24px;
+    padding: 5px;
+    border: 0;
+    border: springgreen 1px solid;
+    transition: .1s;
+    margin-top: 10px;
+}
+.myinfo{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#otherPeerId:focus{
+    border: darkblue 1px solid;
+    transition: .1s;
+}
+.btnSends{
+    padding: 2px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+.btnSend{
+    width: 110px;
+    margin-left: 5px;
+}
+#btnPeer{
+    border-radius: 24px;
+    min-width: 95px;
+    width: 100px;
+    height: 45px;
+    padding: 0px;
+    max-width: 120px;
+    align-items: center;
+    text-align: center;
+    color: springgreen;
+    background-color: #fff;
+    transition: .5s;
+    border: springgreen 1px solid;
+}
+#btnPeer:hover{
+    border-radius: 24px;
+    width: 95px;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: springgreen;
+    border: springgreen 1px solid;
+    transition: .5s;
+}
+.vidioChat{
+    width: 100%;
+    height: auto;
+    display: flex;
+    top: -40px;
+}
+#myVideo{
+    width: 465px;
+    height: 351px;
+    max-width: 465px;
+    max-height: 351px;
+    background: springgreen;
+    border-radius: 10px;
+    margin: 10px;
+}
+#remVideo{
+    width: 465px;
+    height: 351px;
+    max-width: 465px;
+    max-height: 351px;
+    background-color: steelblue;
+    border-radius: 10px;
+    margin: 10px;
+}
+#callanswer{
+    width: 143px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 40px;
+    background: none;
+    border: springgreen 2px solid;
+    margin: 10px;
+    color: springgreen;
+    text-align: center;
+    align-items: center;
+    transition: .5s;
+}
+#callanswer:hover{
+    width: 143px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 40px;
+    background: none;
+    border: springgreen 2px solid;
+    background-color: springgreen;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    transition: .5s;
+}
+#myid{
+    margin-left: 10px;
+}
+.iduser{
+    width: 230px;
+    height: 50px;
+    background-color: #3CB371;
+    min-width: 200px;
+    color: honeydew;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#callcancel{
+    width: 143px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 40px;
+    background: none;
+    border: firebrick 2px solid;
+    margin: 10px;
+    color: firebrick;
+    text-align: center;
+    align-items: center;
+    transition: .5s;
+}
+#callcancel:hover{
+    width: 143px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 40px;
+    background: none;
+    border: firebrick 2px solid;
+    margin: 10px;
+    color: #fff;
+    background-color: firebrick;
+    text-align: center;
+    align-items: center;
+    transition: .5s;
+}
+#callClose{
+    width: 143px;
+    height: 45px;
+    border-radius: 40px;
+    background: none;
+    border: springgreen 2px solid;
+    margin: 10px;
+    color: springgreen;
+    text-align: center;
+    align-items: center;
+    transition: .5s;
+}
+#callClose:hover{
+    width: 143px;
+    height: 45px;
+    border-radius: 40px;
+    background: none;
+    border: springgreen 2px solid;
+    margin: 10px;
+    color: #fff;
+    background-color: springgreen;
+    text-align: center;
+    align-items: center;
+    transition: .5s;
+}
+.vidioChat{
+    width: 100%;
+    height: auto;
+    max-height: 700px;
+    position: relative;
+}
+.chat{
+    width: 100%;
+    height: 400px;
+    min-height: 200px;
+    max-height: 500px;
+    overflow-y: scroll;
+    margin-top:10px;
+}
